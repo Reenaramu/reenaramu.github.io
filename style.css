@@ -1,0 +1,611 @@
+@font-face {
+    font-family: 'Volkhav';
+    src: url('fonts/Volkhav-Regular.woff2') format('woff2'),
+         url('fonts/Volkhav-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.page{
+    height: 100vh;
+    page-break-after: always;
+}
+body{
+    font-family: 'poppins','roboto', sans-serif;
+    margin-left: 20px;
+    background-color: #FEFCFB;
+}
+.page-one{
+
+    height: 999px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 12px;
+}
+.log_in:hover{
+    width: 160px;
+    height: 50px;
+    color: white; 
+    background-color: #FA7436;
+}
+.logo{
+    font-family: 'Volkhav', serif;
+    display: flex;
+    margin-top: 0px;
+    font-weight: bold;
+}
+.trabook{
+    margin-top: 13px;
+    margin-left: 5px;
+}
+
+.nav a{
+    font-size: 16px;
+    color: #222222;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 18px;
+
+}
+
+.login{
+    display: flex;
+}
+
+.log_in{
+    color: #FD8D3A;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 28px;
+}
+
+.signup{
+    width: 160px;
+    height: 50px;
+    background-color: #FA7436;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+
+.content{
+    width: 521px;
+    height: 486px;
+    margin-left: 123px;
+}
+.bold{
+    font-family: 'Volkhav', serif;
+    font-size: 64px;
+    color: #222222;
+    line-height: 70px;
+    font-weight: bold;
+}
+span{
+    color: #FA7436;
+}
+.discover{
+    width: 178px;
+    height: 60px;
+    border-color: #FA7436;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    color: #FA7436;
+    line-height: 32px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.body_content{
+    display: flex;
+}
+.image{
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.booking{
+    width: 841px; 
+    height: 124px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin-left: 250px;
+    display: flex;
+    background-color: #FFFFFF;
+    opacity: 100%;
+}
+.details{
+    display: flex;
+}
+.l, .d, .g{
+    line-height: auto;
+    font-size: 16px;
+    color: #222222;
+    font-weight: 500;
+}
+.where, .when, .number{
+    color: #666666;
+    line-height: auto;
+    font-size: 12px;
+    font-weight: 400;
+}
+.loc, .dat, .guet{
+    display: flex;
+}
+.down_arrow{
+    margin-top: 26px;
+}
+.date, .guest{
+    margin-left: 45px;
+}
+
+.explore{
+    background-color: #FA7436;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    width: 165px;
+    height: 60px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 38px;
+}
+.swe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+    margin-top: 110px;
+}
+.page-two{
+    background-color: #F7F8FC;
+    
+    height: 724px;
+}
+.travel_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    
+}
+.flight{
+    margin-top: 85px;
+}
+.th{
+    color: #222222;
+    font-family: 'Volkhav', serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 54px;
+    text-align: center;
+}
+.things{
+    width: 521px;
+    height: 142px;
+}
+.ensure{
+    text-align: center;
+    color: #666666;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.to_do{
+    color: #FA7436;
+}
+
+.sig, .wor, .exc{
+    width: 370px;
+    height: 278px;
+    background-color: #FFF8F5;
+    margin-left: 20px;
+}
+.si, .wo, .ex{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #222222;
+}
+.co, .af, .st{
+    font-size: 16px;
+    color: #666666;
+    line-height: 26px;
+    font-weight: 400;
+}
+.page-three {
+    justify-content: center;
+    height: 100vh;
+    
+    height: 960px; 
+}
+
+.exclu{
+    color: #222222;
+    font-family: 'volkhav', serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 54px;
+}
+.deals{
+    width: 675px;
+    height: 142px;
+}
+.deals_dis{
+    line-height: 54px;
+    font-family: 'volkhav', serif;
+    font-weight: bold;
+    color: #222222;
+    font-size: 48px;
+    text-align: center;
+
+
+}
+.dd{
+    color: #FA7436;
+    font-size: 48px;
+}
+.disco_fa{
+    width: 433px;
+    height: 64px;
+    color: #666666;
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 580px;
+}
+.mfpl{
+    width: 1170px;
+    height: 426px;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    margin-left: 140px;
+}
+.mad{
+    width: 270px;
+    height: 426px;
+    background-color: #FEFCFB; 
+
+}
+.first_mad{
+    display: flex;
+    justify-content: space-between;
+}
+.madrid{
+    color: #222222;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 500;
+}
+.rating{
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #666666;
+    margin-top: 26px;
+}
+.star{
+    margin-top: 30px;
+    margin-left: 134px;
+}
+.sp_price{
+    display: flex;
+    justify-content: space-between;
+}
+.spain{
+    margin-right: 95px;
+    margin-top: -2px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #666666;
+}
+.org_price{
+    margin-left: 12px;
+    margin-top: -3px;
+}
+.act_price{
+    margin-top: -4px;
+}
+.card2{
+    width: 272px;
+    height: 426px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+}
+.page-four{
+    justify-content: center;
+    height: 893px;
+}
+.coconut{
+    margin-top: 55px;
+    margin-left: 94px;
+}
+.travel_details1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -250px;
+}
+.slider_btn{
+    margin-top: 76px;
+    margin-left: 1180px;
+}  
+.vp{
+    display: flex;
+    justify-content: center;
+}    
+.rome1, .london_uk, .osaka{
+    width: 370px;
+    height: 447px;
+    background-color: #FFFFFF;
+}
+.london_uk, .osaka{
+    margin-left: 20px;
+}
+.r1{
+    display: flex;
+}
+.r2{
+    display: flex;
+}
+.rome_rate{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -21px;
+}
+.r_pr{
+    display: flex;
+    justify-content: space-between;
+}
+.rlo{
+    font-family: 'poppins', 'serif';
+    color: #222222;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+}
+.plan_rate{
+    font-family: 'poppins', 'serif';
+    color: #FA7436;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+}
+.day_trip{
+    font-family: 'poppins', 'serif';
+    font-weight: 500;
+    color: #666666;
+    line-height: 24px;
+    font-size: 16px;
+}
+.rome_content{
+    margin-top: -3px;
+    margin-left: 13px; 
+    margin-right: 15px;
+}
+.rocket{
+    margin-top: 20px;
+}
+.golden_star{
+    margin-top: 18px;
+}
+.page-five{
+    height: 596px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F8FC;
+}
+
+.people_comments{
+    width: 394px;
+    height:268px;
+    margin-left: 140px;
+}
+.client{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #666666;
+    line-height: 32px;
+    font-weight: 400;
+}
+.pc{
+    font-family: 'volkhav', 'serif';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #222222;
+}
+.mike_chris{
+    margin-bottom: -136px;
+    margin-left: 50px;
+}
+.mike{
+    position: relative;
+}
+.chris{
+    margin-top: -278px;
+    margin-left: 50px;
+}
+.aeroplane{
+    margin-bottom: 76px;
+    position: relative;
+    right: 300px;
+}
+.page-six{
+    height: 805px;
+    margin-top: 170px;
+}
+.page-seven{
+    height: 898px;
+}
+.update{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 54px;
+    font-size: 48px;
+    font-style: 'volkhav', 'serif';
+    color: #000000;
+    font-weight: 700;
+}
+.home1, .home2, .home3, .home4{
+    width: 270px;
+    height: 388px;
+}
+.home2, .home3, .home4{
+    margin-left: 20px;
+}
+.amaze{
+    font-size: 18px;
+    font-style: 'poppins', 'serif';
+    font-weight: 500;
+    line-height: 26px;
+    color: #222222;
+}
+.date{
+    color: #999999;
+    font-size: 16px;
+    line-height: 26px;
+    position: relative;
+    left: -44px;
+}
+.apartment{
+    display: flex;
+    justify-content: center;
+}
+.dot_slider{
+    position: relative;
+    right: -714px;
+    margin-top: 30px;
+}
+.org_bg{
+    position: relative;
+    left: 163px;
+}
+.subs{
+    width: 708px;
+    height: 256px;
+    padding: 10px;
+    position: relative;
+    top: -378px;
+    right: -458px;
+}
+.se{
+    width: 708px;
+    height: 124px;
+    color: #FFFFFF;
+    font-size: 48px;
+    line-height: auto;
+    font-family: 'volkhav', 'serif';
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.place_holder{
+    width: 674px;
+    height: 68px;
+    border-radius: 10px;
+    border: none;
+}
+.coco_tree{
+    position: relative;
+    top: -1048px;
+    left: 1192px;
+}
+.ring{
+    position: relative;
+    top: -764px;
+    left: 48px;
+}
+.subscri{
+    width: 132px;
+    height: 50px;
+    background-color: #FA7436;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: auto;
+    position: relative;
+    top: -862px;
+    left: 519px;
+    border: none;
+    border-radius: 5px;
+}
+.fit{
+    /*width: 254px;
+    height: 176px;*/
+    position: relative;
+    top: -674px;
+    right: -164px;
+    display: flex;
+}
+.tr_social{
+    width: 254px;
+    height: 176px; 
+}
+.bottom{
+    color: #666666;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.ccm{
+    width: 616px;
+    height: 230px;
+    display: flex;
+    margin-left: 287px;
+}
+.comp, .cont, .mor{
+    margin-left: 86px;
+}
+.cocmo{
+    font-size: 18px;
+    color: #222222;
+    line-height: 26px;
+    font-weight: 600;
+}
+.text{
+    color: #666666;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.copy{
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: auto;
+    margin-left: 164px;
+}
+.terms{
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    right: -1140px;
+    top: -35px;
+}
+.footer{
+    position: relative;
+    top: -580px;
+}
